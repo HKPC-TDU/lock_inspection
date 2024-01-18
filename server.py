@@ -36,23 +36,15 @@ class PredictorServicer(prediction_service.PredictorServicer):
             path = data_info[1]
             mkdir_directory(Path(self.context.inputs_folder))
             mkdir_directory(Path(self.context.outputs_folder))
-            mkdir_directory(Path(self.context.model_folder))
             if self.context.is_prod():
                 # 1. remove history request
                 remove_directory(Path(self.context.inputs_folder))
                 print(f'remove history request in {self.context.inputs_folder}')
                 remove_directory(Path(self.context.outputs_folder))
                 print(f'remove history result in {self.context.outputs_folder}')
-                # 2.1 download current request
+                # 2 download current request
                 self.repository.download_input_paths(bucket, path, self.context.inputs_folder)
                 print(f'download request from {bucket}/{path}')
-            # 2.2 download model
-            if self.context.model_bucket and self.context.model_path:
-                remove_directory(Path(self.context.model_folder))
-                print(f'remove history result in {self.context.model_folder}')
-                self.repository.download_input_paths(self.context.model_bucket, self.context.model_path,
-                                                     self.context.model_folder)
-                print(f'download model from {self.context.model_bucket}/{self.context.model_path}')
             # 3. predict by model
             self.predict_service.predict()
             # 4. upload result to minio
@@ -71,8 +63,20 @@ class PredictorServicer(prediction_service.PredictorServicer):
 def main():
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=4))
     context = PredictContext()
+    print('\n ------ ------ ----- context initial ------ ------ ----- \n')
+    print(datetime.now().strftime("%Y-%m-%d %H:%M:%S"), context.config)
     repository = Repository(context.config.MINIO_SERVER, context.config.MINIO_SERVER_ACCESS_KEY,
                             context.config.MINIO_SERVER_SECRET_KEY)
+    # download model
+    print('\n ------ ------ ----- model loading ------ ------ ----- \n')
+    mkdir_directory(Path(context.model_folder))
+    if context.is_prod() and context.model_bucket and context.model_path:
+        remove_directory(Path(context.model_folder))
+        print(f'remove history result in {context.model_folder}')
+        repository.download_input_paths(context.model_bucket, context.model_path, context.model_folder)
+        print(f'download model from {context.model_bucket}/{context.model_path}')
+    print(f'load model in {context.model_folder}')
+    print('\n ------ ------ ----- serving ------ ------ ----- \n')
     predict_model = ModelPredict(context.inputs_folder, context.outputs_folder, context.model_folder)
     prediction_service.add_PredictorServicer_to_server(
         PredictorServicer(context, repository, predict_model), server)
@@ -82,7 +86,7 @@ def main():
     health_pb2_grpc.add_HealthServicer_to_server(health_servicer, server)
     server.add_insecure_port('0.0.0.0:51001')
     server.start()
-    print("server is running")
+    print("server is running\n\n")
     server.wait_for_termination()
 
 
