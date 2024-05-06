@@ -1,0 +1,77 @@
+./train_inputs/202309-image/202309-image/Defect-Image/tonggua-SOL2500-40/front-dirt-1.jpg 752,2968,908,3008,1 1212,2957,1382,3039,1
+./train_inputs/202309-image/202309-image/Defect-Image/tonggua-SOL2500-40/front-dirt-2.jpg 1435,3010,1487,3038,1
+./train_inputs/202309-image/202309-image/Defect-Image/tonggua-SOL2500-40/front-dirt-3.jpg 435,2820,509,2862,1 393,3295,451,3351,0
+./train_inputs/202309-image/202309-image/Defect-Image/tonggua-SOL2500-40/front-dirt-4.jpg 1021,2813,1083,2863,1 1260,2916,1300,2952,1 1332,2844,1360,2878,1
+./train_inputs/202309-image/202309-image/Defect-Image/tonggua-SOL2500-40/front-dirt-5.jpg 1308,2425,1420,2467,1
+./train_inputs/202309-image/202309-image/Defect-Image/tonggua-SOL2500-40/front-dirt-6.jpg 1175,2511,1263,2567,1
+./train_inputs/202309-image/202309-image/Defect-Image/tonggua-SOL2500-40/front-scratch-1.jpg 1664,3104,1706,3190,0 1692,1869,1710,1915,0
+./train_inputs/202309-image/202309-image/Defect-Image/tonggua-SOL2500-40/front-scratch-5.jpg 272,3488,330,3642,0 251,3286,545,3398,0 358,3060,574,3158,0 300,2583,348,2617,0 408,2576,444,2628,0 346,2176,502,2362,0
+./train_inputs/202309-image/202309-image/Defect-Image/tonggua-SOL2500-40/front-scratch-6.jpg 648,2743,710,2769,1 1301,2760,1607,2900,0 352,2894,412,2942,0
+./train_inputs/202309-image/202309-image/Defect-Image/tonggua-SOL2500-40/top-scratch-1.jpg 980,2604,1116,3292,0 1209,2743,1397,2815,0 1403,2955,1435,3289,0 1904,3118,1970,3266,0 1900,2648,1950,2802,0 1721,2803,1795,3281,0
+./train_inputs/202309-image/202309-image/Defect-Image/tonggua-SOL2500-40/top-scratch-2.jpg 1099,2568,1543,3178,0 899,2660,943,2972,0 2023,2984,2055,3090,0 1998,2626,2064,2682,0
+./train_inputs/202309-image/202309-image/Defect-Image/tonggua-SOL2500-40/top-scratch-3.jpg 1431,2391,1585,2831,0 1764,2372,2082,2534,0 1236,2355,1390,2555,0 1002,2957,1058,3007,0 1140,2978,1194,3034,0 830,2908,912,3002,0
+./train_inputs/202309-image/202309-image/Defect-Image/zima-SOL300-30/badtexture-1.jpg 1175,2831,1635,3327,2
+./train_inputs/202309-image/202309-image/Defect-Image/zima-SOL300-30/badtexture-2.jpg 858,2450,1262,2962,2
+./train_inputs/202309-image/202309-image/Defect-Image/zima-SOL300-30/scratch-11.jpg 613,2726,1041,2858,0
+./train_inputs/202309-image/202309-image/Defect-Image/zima-SOL300-30/scratch-12-dirt-3.jpg 292,3421,386,3461,0 1078,3239,1102,3259,1
+./train_inputs/202309-image/202309-image/Defect-Image/zima-SOL300-30/scratch-13.jpg 1060,2668,1396,2990,0
+./train_inputs/202309-image/202309-image/Defect-Image/zima-SOL300-30/scratch-14.jpg 538,2589,938,2673,0
+./train_inputs/202309-image/202309-image/Defect-Image/zima-SOL300-30/scratch-15.jpg 735,2522,995,2654,0
+./train_inputs/202309-image/202309-image/Defect-Image/zima-SOL300-30/scratch-16.jpg 673,2848,937,2954,0 958,2702,1054,2838,0
+./train_inputs/202309-image/202309-image/Defect-Image/zima-SOL300-30/scratch-17.jpg 512,2888,1546,2974,0
+./train_inputs/202309-image/202309-image/Defect-Image/zima-SOL300-30/scratch-4.jpg 427,2800,727,2904,0
+./train_inputs/202309-image/202309-image/Defect-Image/zima-SOL300-30/scratch-5.jpg 760,2588,906,2630,0 386,2572,580,2650,0
+./train_inputs/202309-image/202309-image/Defect-Image/zima-SOL300-30/scratch-6.jpg 615,2686,805,2806,0
+./train_inputs/202309-image/202309-image/Defect-Image/zima-SOL300-30/scratch-7-badtexture-4.jpg 376,2403,664,2511,0 734,2519,992,2695,0 1088,2612,1564,2958,2 1331,2959,1583,3071,2
+./train_inputs/202309-image/202309-image/Defect-Image/zima-SOL300-30/scratch-8-dirt-1.jpg 1127,2457,1329,2535,0 1340,3017,1408,3081,1 1487,2833,1559,2881,1 546,2646,1024,2762,0
+./train_inputs/202309-image/202309-image/Defect-Image/zima-SOL300-30/scratch-9.jpg 612,2446,788,2516,0
+./train_inputs/20231027-image/Normal-aluminum-padlock/beam_scratch_1.jpg 742,1014,774,1034,0
+./train_inputs/20231027-image/Normal-aluminum-padlock/front_scratch_2.jpg 354,1146,388,1196,0
+./train_inputs/20231027-image/Normal-aluminum-padlock/front_scratch_3.jpg 482,1287,506,1323,0
+./train_inputs/20231027-image/Normal-aluminum-padlock/lateral_scratch_1.jpg 544,1220,756,1252,0
+./train_inputs/20231027-image/Normal-aluminum-padlock/lateral_scratch_2.jpg 431,1208,491,1222,0 535,1208,591,1224,0
+./train_inputs/20231027-image/Normal-aluminum-padlock/lateral_scratch_3.jpg 455,1194,491,1212,0 498,1194,530,1212,0 322,1196,360,1212,0
+./train_inputs/20231027-image/Normal-aluminum-padlock/lateral_scratch_4.jpg 137,1179,183,1211,0
+./train_inputs/20231027-image/Normal-aluminum-padlock/lateral_scratch_5.jpg 539,1208,605,1240,0
+./train_inputs/20231027-image/Normal-copper-padlock/front_corrosion_13.jpg 315,1264,333,1282,4
+./train_inputs/20231027-image/Normal-copper-padlock/front_corrosion_5.jpg 241,1636,273,1692,4
+./train_inputs/20231027-image/Normal-copper-padlock/front_corrosion_6.jpg 121,1202,137,1240,4
+./train_inputs/20231027-image/Normal-copper-padlock/front_corrosion_7.jpg 278,1042,310,1070,4
+./train_inputs/20231027-image/Normal-copper-padlock/front_corrosion_8.jpg 659,1085,677,1105,4
+./train_inputs/20231027-image/Normal-copper-padlock/front_corrosion_9.jpg 462,1075,482,1103,4
+./train_inputs/20231027-image/Normal-copper-padlock/front_scratch_1.jpg 320,1064,390,1084,0
+./train_inputs/20231027-image/Normal-copper-padlock/front_scratch_5.jpg 397,1206,509,1214,0 193,1202,299,1216,0 407,1078,573,1098,0
+./train_inputs/20231027-image/Normal-copper-padlock/front_scratch_6.jpg 400,1029,512,1103,0 187,1412,207,1428,0 478,1326,498,1340,0
+./train_inputs/20231027-image/Normal-copper-padlock/front_scratch_7.jpg 376,1185,424,1241,0
+./train_inputs/20231027-image/Normal-copper-padlock/lateral_corrosion_1.jpg 120,1311,420,1343,4
+./train_inputs/20231027-image/Normal-copper-padlock/lateral_corrosion_2.jpg 421,1294,471,1342,4 476,1241,504,1307,4
+./train_inputs/20231027-image/Normal-copper-padlock/lateral_corrosion_3.jpg 180,1367,372,1387,4 426,1295,478,1345,4
+./train_inputs/20231027-image/SOL-copper-padlock/bottom_corrosion_1.jpg 405,5784,457,5874,4 400,5477,442,5533,4 4591,5682,4711,5976,4
+./train_inputs/20231027-image/SOL-copper-padlock/bottom_scratch_11.jpg 2287,4845,2425,4999,0 4226,5723,4418,5851,0 1000,5168,1144,5300,0 3497,5700,3825,5802,0 3968,5523,4176,5783,0
+./train_inputs/20231027-image/SOL-copper-padlock/bottom_scratch_12.jpg 1722,5451,2182,5711,0 1707,4990,2121,5226,0
+./train_inputs/20231027-image/SOL-copper-padlock/bottom_scratch_13.jpg 3526,5945,3646,6005,0 4148,5894,4334,5986,0 4726,5852,4888,5938,0 5039,5697,5125,5861,0
+./train_inputs/20231027-image/SOL-copper-padlock/bottom_scratch_2.jpg 4135,5235,4439,5525,0 4516,5281,4818,5531,0 4342,5929,4546,6131,0 4697,5774,4783,5932,0 3088,5894,3670,6044,0
+./train_inputs/20231027-image/SOL-copper-padlock/bottom_scratch_3.jpg 2548,4994,2622,5110,0 1456,5835,1660,5961,0 1339,6106,1397,6170,0
+./train_inputs/20231027-image/SOL-copper-padlock/bottom_scratch_4.jpg 3506,5245,3606,5667,0 4374,5235,4458,5403,0 2377,6176,2545,6240,0 4139,6105,4245,6163,0
+./train_inputs/20231027-image/SOL-copper-padlock/bottom_scratch_5.jpg 2035,5032,2185,5284,0 1525,5287,1993,5915,0 3518,6197,3834,6287,0
+./train_inputs/20231027-image/SOL-copper-padlock/bottom_scratch_9.jpg 3865,5535,3937,5839,0 4116,4768,4248,5080,0 4174,5152,4370,5718,0 2626,5774,2708,5828,0 2304,5239,2376,5343,0 3408,4982,3666,5062,0 3469,5121,3709,5281,0
+./train_inputs/20231027-image/SOL-copper-padlock/top_scratch_1.jpg 642,6000,722,6116,0 1503,5361,1799,5599,0 4022,5913,4296,6045,0 4458,5665,4710,5777,0 4432,5265,4732,5399,0 4739,5216,4831,5700,0 3774,5745,3862,5811,0
+./train_inputs/20231027-image/SOL-copper-padlock/top_scratch_10.jpg 2565,5048,2751,5200,0 4397,5729,4641,6029,0
+./train_inputs/20231027-image/SOL-copper-padlock/top_scratch_11.jpg 2612,5190,3358,6300,0 1439,5581,2039,5851,0
+./train_inputs/20231027-image/SOL-copper-padlock/top_scratch_12.jpg 4289,5871,4641,5981,0 1534,5765,1954,6015,0 2013,6087,2441,6297,0 2500,6000,3054,6302,0
+./train_inputs/20231027-image/SOL-copper-padlock/top_scratch_13.jpg 3188,6124,3288,6270,0 1796,4981,1920,5147,0
+./train_inputs/20231027-image/SOL-copper-padlock/top_scratch_14.jpg 1126,5948,1210,6152,0 2654,5706,3312,5858,0 2561,6065,2899,6197,0 4423,5568,4657,5834,0 4068,6010,4396,6128,0
+./train_inputs/20231027-image/SOL-copper-padlock/top_scratch_18.jpg 3406,6044,3736,6140,0 3466,5720,3820,5934,0 4488,6071,4570,6121,0
+./train_inputs/20231027-image/SOL-copper-padlock/top_scratch_19.jpg 3624,5332,3702,5638,0 4713,5819,4803,6093,0 3532,6465,3622,6539,0
+./train_inputs/20231027-image/SOL-copper-padlock/top_scratch_2.jpg 1319,5097,1405,5313,0 4661,5190,4741,5294,0 4490,5429,4626,5539,0
+./train_inputs/20231027-image/SOL-copper-padlock/top_scratch_20.jpg 4556,5759,4804,5893,0 4729,5395,4811,5507,0 3754,6083,3964,6143,0
+./train_inputs/20231027-image/SOL-copper-padlock/top_scratch_21.jpg 1594,6061,1670,6177,0 4461,5081,4551,5165,0 4867,5448,4909,5584,0
+./train_inputs/20231027-image/SOL-copper-padlock/top_scratch_22.jpg 3731,6042,3831,6196,0 4787,5590,4857,5838,0 4774,5897,4888,6015,0 3532,5729,3752,5835,0 4505,5690,4599,5806,0
+./train_inputs/20231027-image/SOL-copper-padlock/top_scratch_23.jpg 1932,5574,2018,5948,0 1486,5377,1570,5509,0 1839,5116,1923,5190,0 2065,5155,2173,5197,0
+./train_inputs/20231027-image/SOL-copper-padlock/top_scratch_27.jpg 4484,5741,4782,5991,0 3578,5678,3850,5914,0 2387,5777,2641,5903,0 3347,5494,3467,5564,0
+./train_inputs/20231027-image/SOL-copper-padlock/top_scratch_3.jpg 1076,6132,1128,6232,0 1761,5116,1851,5176,0 4581,5113,4693,5439,0
+./train_inputs/20231027-image/SOL-copper-padlock/top_scratch_4.jpg 1087,6139,1151,6319,0 3429,6052,3735,6202,0 4045,5932,4243,6096,0 3823,6018,4003,6136,0
+./train_inputs/20231027-image/SOL-copper-padlock/top_scratch_5.jpg 2066,5510,2202,5694,0 2221,5476,2299,5604,0 1904,5705,2028,5815,0 2712,5537,2914,5697,0 2917,5568,3019,5654,0 2629,6041,2857,6139,0 3337,6020,3505,6082,0 3298,5271,3454,5353,0 2671,5261,2885,5319,0 2002,5037,2126,5111,0 2217,5017,2355,5111,0 3667,4905,3877,5037,0 1016,5006,1080,5174,0
+./train_inputs/20231027-image/SOL-copper-padlock/top_scratch_6.jpg 2263,5773,2539,5873,0 2585,5351,2919,5441,0 2512,6144,2776,6262,0 3213,6049,3297,6219,0 3406,5532,3640,5714,0 4220,5251,4406,5461,0 4498,5512,4672,5656,0
+./train_inputs/20231027-image/SOL-copper-padlock/top_scratch_7.jpg 1656,5993,1736,6065,0 2663,5661,2775,5749,0 3111,5971,3201,6063,0 3380,5832,3518,5960,0 3268,5561,3372,5641,0 2580,5841,2694,5905,0 1805,6146,1893,6222,0 4112,5834,4218,5926,0 4301,5798,4455,5914,0 3377,5190,3453,5250,0 3549,6068,3621,6144,0 3632,5922,3882,6066,0 4298,5156,4426,5262,0
+./train_inputs/20231027-image/SOL-copper-padlock/top_scratch_8.jpg 2558,5094,2834,6076,0 4027,5861,4273,6013,0 4471,5732,4717,5886,0 3375,5959,3447,6019,0
