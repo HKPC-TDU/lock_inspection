@@ -15,9 +15,9 @@ class Model:
         # codes of algorithm
     
         print('load parameter from {0}'.format(self.history_model_folder))
-        model = self.history_model_folder + 'logs/ep450-loss0.621-val_loss1.252.pth'
+        model = self.history_model_folder + '/logs/ep450-loss0.621-val_loss1.252.pth'
         classes = self.history_model_folder + '/classes.txt'
-        anchors = self.history_model_folder + 'model_data/yolo_anchors.txt'
+        anchors = self.history_model_folder + '/model_data/yolo_anchors.txt'
         annotation = (self.inputs_folder + '/Annotation/train_label.txt' ,self.inputs_folder + '/Annotation/valid_label.txt')
         output = self.outputs_folder + '/logs'
         # Input para:
